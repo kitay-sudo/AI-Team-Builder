@@ -5,13 +5,6 @@
 ![Team](https://img.shields.io/badge/Team-Builder-orange?style=for-the-badge&logo=users&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=open-source-initiative&logoColor=white)
 
-[![GitHub stars](https://img.shields.io/github/stars/username/AI-Team-Builder?style=social)](https://github.com/username/AI-Team-Builder/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/username/AI-Team-Builder?style=social)](https://github.com/username/AI-Team-Builder/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/username/AI-Team-Builder?style=flat-square&color=red)](https://github.com/username/AI-Team-Builder/issues)
-[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen?style=flat-square)](https://github.com/username/AI-Team-Builder/releases)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green?style=flat-square)](https://github.com/username/AI-Team-Builder/graphs/commit-activity)
-[![Made with](https://img.shields.io/badge/Made%20with-❤️-red?style=flat-square)](https://github.com/username/AI-Team-Builder)
-
 ## Что это?
 
 **AI Team Builder** - инструмент для автоматического анализа проектов и формирования команды AI-агентов под конкретные задачи.
@@ -78,3 +71,4 @@ Team Lead Orchestrator (главный)
 ---
 
 *Разработано для автоматизации IT-процессов с помощью специализированных AI-агентов*
+
