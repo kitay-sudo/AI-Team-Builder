@@ -247,4 +247,5 @@ Master coordinator managing multi-agent workflows and task distribution across s
 - Создание todo-листов с приоритетами
 - Мониторинг прогресса выполнения задач
 ### Приоритет: Critical
+
 ```
