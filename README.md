@@ -1,4 +1,4 @@
-# 🤖 AI Team Builder
+# AI Team Builder
 
 ![AI](https://img.shields.io/badge/AI-Powered-blue?style=for-the-badge&logo=robot&logoColor=white)
 ![Automation](https://img.shields.io/badge/Automation-Ready-green?style=for-the-badge&logo=github-actions&logoColor=white)
@@ -71,4 +71,5 @@ Team Lead Orchestrator (главный)
 ---
 
 *Разработано для автоматизации IT-процессов с помощью специализированных AI-агентов*
+
 
