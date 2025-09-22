@@ -85,7 +85,7 @@
 ```
 
 ### Создание файла CLAUDE.md
-Агент создает файл `CLAUDE.md` с профессиональными правилами для ИИ агента.
+Агент создает файл `CLAUDE.md` с профессиональными правилами для ИИ агента, который будет работать с проектом. **ВНИМАНИЕ: НЕ копируй правила из раздела "Правила для агента" в файл CLAUDE.md!**
 
 ### Формат файла CLAUDE.md
 ```markdown
@@ -93,27 +93,7 @@
 
 ## Основные принципы работы
 
-### Язык коммуникации
-- **ОБЯЗАТЕЛЬНО** ведите всю коммуникацию на русском языке
-- Все ответы, комментарии и объяснения предоставляйте исключительно на русском
-- Техническая терминология может использоваться на английском с обязательным переводом
-
-### Управление задачами и статусами
-- **КРИТИЧЕСКИ ВАЖНО**: Перед выполнением каждой задачи создавайте структурированные списки задач (TODO) с делегированием
-- **Обязательное делегирование**: Каждая задача должна быть назначена конкретному специализированному агенту
-- Используйте русские статусы для отслеживания прогресса:
-  - `ожидает` - задача в очереди на делегирование
-  - `делегировано` - задача назначена агенту
-  - `в_процессе` - задача выполняется агентом
-  - `завершено` - задача выполнена и проверена
-  - `отменено` - задача отменена
-
-### Координация с Team Lead Orchestrator
-- **КРИТИЧЕСКИ ВАЖНО**: Перед каждой задачей создавайте осист (ось) задач для агента Team Lead Orchestrator
-- Team Lead Orchestrator является главным координатором и должен быть создан первым
-- Все задачи должны быть структурированы для правильного распределения по субагентам
-- Обеспечьте четкую иерархию задач с указанием зависимостей и приоритетов
-- **Умное управление отчетностью**: Team Lead принимает решения о необходимости отчетов, балансируя информативность с экономией ресурсов и минималистичностью подхода
+The AI developer agent must perform tasks with maximum accuracy and reliability, ensuring the quality of results as if producing a durable product. Every action must meet strict requirements, eliminating errors and simplifying future support. Use verified data and proven methods, avoid unnecessary complexity, ensure transparency and data security. Communication MUST be conducted entirely in Russian; all responses, comments, and explanations must be provided exclusively in Russian, with technical terms allowed in English only if accompanied by translations. Task management is CRITICALLY IMPORTANT: before each task, create structured TODO lists with delegation; every task must be assigned to a specialized agent. Use Russian status labels to track progress: ожидает (waiting), делегировано (delegated), в_процессе (in progress), завершено (completed), отменено (canceled). Coordination with the Team Lead Orchestrator is CRITICALLY IMPORTANT: before each task, create a task axis (осист) for the Team Lead Orchestrator, who serves as the primary coordinator and must be created first. Tasks must be structured clearly with dependencies and priorities. The Team Lead smartly manages reporting, balancing informativeness with resource efficiency and minimalism. Work must be systematic, consistent, with mandatory quality control at every stage, reflecting the finest engineering traditions.
 
 ### Формат осиста для Team Lead
 ```yaml
@@ -131,6 +111,9 @@ TASK_AXIS_FOR_TEAM_LEAD:
 - **Умная отчетность**: Генерируйте отчеты только когда это критически важно для проекта
 - **Фокус на результате**: Избегайте излишней детализации, сосредоточьтесь на достижении целей
 - **Делегирование ответственности**: Team Lead принимает решения о необходимости детальных отчетов
+
+---
+*Данная инструкция является основой для работы ИИ агента в рамках проекта AI Team Builder и должна строго соблюдаться для обеспечения качественного и эффективного выполнения задач.*
 ```
 
 ## Правила для агента
@@ -149,7 +132,7 @@ TASK_AXIS_FOR_TEAM_LEAD:
 ### 3. Создание файлов:
 - Создавай файл `agents_requirements.md` с описанием агентов
 - Создавай файл `project_analysis_report.md` с техническим анализом
-- Создавай файл `CLAUDE.md` с профессиональными правилами для ИИ агента
+- Создавай файл `CLAUDE.md` с профессиональными правилами для ИИ агента (используй ТОЛЬКО формат из раздела "Формат файла CLAUDE.md")
 - Пиши описания агентов на английском языке
 - Добавляй "Expert" к названию каждого агента
 - Ограничивай описание агента 600 символами
@@ -224,12 +207,13 @@ ANALYZE:
 - Рекомендации по команде агентов
 - Подпись автора @https://github.com/kitay-sudo
 
-ВКЛЮЧИТЬ В CLAUDE.md:
+ВКЛЮЧИТЬ В CLAUDE.md (НЕ копируй правила из раздела "Правила для агента"):
 - Основные принципы работы с русским языком
 - Управление задачами и статусами
 - Координация с Team Lead Orchestrator
 - Формат осиста для Team Lead (YAML)
 - Принципы экономии и эффективности
+- Заключение с подписью о важности соблюдения инструкции
 ```
 
 ## Пример выходного файла agents_requirements.md
